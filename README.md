@@ -17,7 +17,7 @@ make install
 
 Build and push operator docker image:
 ```bash
-export IMG=nitinrajput658/ngkore-operator:0.0.1
+export IMG=nitinrajput/ngkore-operator:0.0.1
 make docker-build docker-push IMG=${IMG}
 ```
 
